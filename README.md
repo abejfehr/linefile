@@ -16,7 +16,7 @@ It has both sync and async methods (same methods, with or without callback).
        and some have
           whitespace
 
-Indentation is ignored in parsing. See [Nesting](#Nesting) if you want it to matter.
+Indentation is ignored in parsing. See [Nesting](#nesting) if you want it to matter.
 
 ## Methods
 

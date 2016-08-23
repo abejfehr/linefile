@@ -34,8 +34,20 @@ Indentation is ignored in parsing. See [Nesting](#nesting) if you want it to mat
     
 And saving back to file:
 
-    var myfile = ['# comments are just lines', '# with a # in front', 'this is not a comment', '    # whitespace is trimmed in save', '# but it\s fine if you use it', '# before comments also']
+    var myfile = ['# comments are just lines', 'data line', 'this is not a comment', '    # whitespace is trimmed in save'];
     linefile.save('myfile.txt', myfile);
+    
+    // async
+    linefile.save('myfile.txt', myfile, function(err) {
+      if (!err) console.log('save success!');
+    });
+
+myfile.txt after save:
+
+    # comments are just lines
+    data line
+    this is not a comment
+    # whitespace is trimmed in save
     
 # Comments
 

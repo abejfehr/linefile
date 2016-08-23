@@ -25,6 +25,7 @@ exports.save = function(file, array, callback) {
 // TODO: Implement nesting, just rewrite the functions below
 function parse(data, nested) {
   return data
+    .trim()
     .split(/[\r\n]+/)
     .map(line => line.trim())
     .filter(line => line != '' && line.substr(0, 1) != '#');

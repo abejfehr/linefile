@@ -1,0 +1,33 @@
+{
+  "name": "linefile",
+  "version": "0.0.1",
+  "description": "Parse and save files with line/array data (split and join, essentially) with some bonus features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torvalamo/linefile.git"
+  },
+  "keywords": [
+    "config",
+    "file",
+    "line",
+    "linefile",
+    "single",
+    "array",
+    "list",
+    "nested",
+    "indent",
+    "indentation",
+    "parse",
+    "stringify"
+  ],
+  "author": "Tor Valamo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torvalamo/linefile/issues"
+  },
+  "homepage": "https://github.com/torvalamo/linefile#readme"
+}
